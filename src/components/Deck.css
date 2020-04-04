@@ -1,13 +1,24 @@
 .Deck {
     width: 98vw;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: blue;
-
-    
+    justify-content: center;
+    background-color: bisque;   
 }
 
 li {
     margin: 2em;
  }
+
+img {
+    border: 5px solid white;
+    border-radius: 1em;
+    height: 15em;
+    width: auto;
+}
+
+img:hover {
+    border: 5px solid grey;
+}
