@@ -1,24 +1,24 @@
 import React from 'react';
 import { cards } from '../data/cards';
 import Card from './Card';
+import './Deck.css';
 
 const Deck = () => {
 
-    const cardDeck = cards.map((card, i) => (
+    const scopaDeck = cards.map((card, i) => (
         <li key={i}>
             <Card card={card}/>
-
         </li>
     ))
+
     return (
+        
         <>
-        <ul>
-            {cardDeck}
-        </ul>
+            <ul className='Deck'>
+                {scopaDeck}
+            </ul>
         </>
     )
 };
-
-Deck.propTypes = {};
 
 export default Deck;

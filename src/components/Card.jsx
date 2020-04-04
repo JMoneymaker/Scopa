@@ -4,9 +4,7 @@ const Card = ({ card }) => {
 
     return (
         <>
-            <div>
-                <img alt={'card'} src={card.image}></img>
-            </div>
+            <img alt={'card'} src={card.image} />
         </>
     )
 }
