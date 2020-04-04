@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import Deck from '../src/components/Deck';
+import './reset.css';
+import Deck from './components/Deck.jsx';
 
 function App() {
   return (
